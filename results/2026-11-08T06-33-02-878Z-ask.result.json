@@ -1,0 +1,45 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "cache-control": "no-cache",
+    "cf-placement": "remote-IAD",
+    "cf-ray": "a5728b384907880d-SIN",
+    "connection": "keep-alive",
+    "content-type": "text/event-stream",
+    "date": "Sun, 08 Nov 2026 06:33:02 GMT",
+    "server": "cloudflare",
+    "server-timing": "gateway;dur=38, upstream;dur=831, total;dur=869",
+    "transfer-encoding": "chunked",
+    "x-opencode-log-id": "01a1b9dc-3fb5-73dd-a22d-c84a7d69f664",
+    "x-zen-model": "big-pickle"
+  },
+  "text": "Received your request — ready when you are.",
+  "reasoning": "",
+  "finishReason": "stop",
+  "usage": {
+    "prompt_tokens": 5549,
+    "completion_tokens": 11,
+    "total_tokens": 5560,
+    "prompt_tokens_details": {
+      "cached_tokens": 1758
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "cost": 0,
+    "opencode": {
+      "billing_source": "free",
+      "list_cost": 0,
+      "tokens": {
+        "input": 3791,
+        "output": 11,
+        "reasoning": 0,
+        "cache_read": 1758,
+        "cache_write_5m": 0,
+        "cache_write_1h": 0
+      }
+    }
+  },
+  "rawBytes": 2891
+}

@@ -1,0 +1,45 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "cache-control": "no-cache",
+    "cf-placement": "remote-IAD",
+    "cf-ray": "a572a38a58e5aecd-SIN",
+    "connection": "keep-alive",
+    "content-type": "text/event-stream",
+    "date": "Sun, 08 Nov 2026 06:49:38 GMT",
+    "server": "cloudflare",
+    "server-timing": "gateway;dur=32, upstream;dur=694, total;dur=726",
+    "transfer-encoding": "chunked",
+    "x-opencode-log-id": "01a1b9eb-72fe-788f-9b2e-d71910a6ad2d",
+    "x-zen-model": "big-pickle"
+  },
+  "text": "",
+  "reasoning": "The user asks: \"State the session header generation algorithm in one sentence.\" This is about OpenCode codebase presumably. Let me search the codebase for session header generation algorithm.\n\nLet me explore.",
+  "finishReason": "tool_calls",
+  "usage": {
+    "prompt_tokens": 5548,
+    "completion_tokens": 213,
+    "total_tokens": 5761,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "cost": 0,
+    "opencode": {
+      "billing_source": "free",
+      "list_cost": 0,
+      "tokens": {
+        "input": 3628,
+        "output": 213,
+        "reasoning": 40,
+        "cache_read": 1920,
+        "cache_write_5m": 0,
+        "cache_write_1h": 0
+      }
+    }
+  },
+  "rawBytes": 5945
+}

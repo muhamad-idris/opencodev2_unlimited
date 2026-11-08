@@ -1,0 +1,16 @@
+{
+  "url": "https://opencode.ai/inference/openai/v1/chat/completions",
+  "headers": {
+    "authorization": "Bearer public",
+    "content-type": "application/json",
+    "user-agent": "opencode/latest/2.2.5/cli",
+    "x-opencode-client": "cli",
+    "x-opencode-project": "428e8b1e2efa9de2bb5f90823f73be04cd927c79",
+    "x-opencode-session": "ses_e46461efbffe5OJFQEScWJc4Kj",
+    "x-opencode-session-id": "ses_e46461efbffe5OJFQEScWJc4Kj",
+    "x-opencode-translate-session": "ses_e46461efbffe5OJFQEScWJc4Kj",
+    "x-session-affinity": "ses_e46461efbffe5OJFQEScWJc4Kj",
+    "x-session-id": "ses_e46461efbffe5OJFQEScWJc4Kj"
+  },
+  "body": "{\"model\":\"big-pickle\",\"messages\":[{\"role\":\"user\",\"content\":\"In one short sentence, confirm you received this request.\"}],\"stream\":true,\"stream_options\":{\"include_usage\":true},\"max_completion_tokens\":32000}"
+}

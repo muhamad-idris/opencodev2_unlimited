@@ -1,0 +1,21 @@
+{
+  "status": 429,
+  "statusText": "Too Many Requests",
+  "headers": {
+    "cf-placement": "remote-IAD",
+    "cf-ray": "a57284abda5a9fdd-SIN",
+    "connection": "keep-alive",
+    "content-length": "208",
+    "content-type": "application/json",
+    "date": "Sun, 08 Nov 2026 06:28:33 GMT",
+    "retry-after": "63087",
+    "server": "cloudflare",
+    "server-timing": "gateway;dur=5, total;dur=5",
+    "x-opencode-log-id": "01a1b9d8-27e8-77dd-96b2-90bcaa9cb538"
+  },
+  "text": "",
+  "reasoning": "",
+  "finishReason": "",
+  "usage": null,
+  "rawBytes": 208
+}

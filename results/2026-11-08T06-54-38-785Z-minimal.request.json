@@ -1,0 +1,17 @@
+{
+  "url": "https://opencode.ai/inference/openai/v1/chat/completions",
+  "headers": {
+    "authorization": "Bearer public",
+    "content-type": "application/json",
+    "user-agent": "opencode/latest/2.2.5/cli",
+    "b3": "2b3105d45774678a9097a6e67132c916-5598343665c09b39-1-46046652456011ed",
+    "traceparent": "00-2b3105d45774678a9097a6e67132c916-5598343665c09b39-01",
+    "x-opencode-client": "cli",
+    "x-opencode-project": "aaef25d44d3915b62ff71761bacc20855efd1edf",
+    "x-opencode-session": "ses_e460ff687ffe2QzYQUSpZfTaqN",
+    "x-opencode-session-id": "ses_e460ff687ffe2QzYQUSpZfTaqN",
+    "x-session-affinity": "ses_e460ff687ffe2QzYQUSpZfTaqN",
+    "x-session-id": "ses_e460ff687ffe2QzYQUSpZfTaqN"
+  },
+  "body": "{\"model\":\"nemotron-3.5-super-vl-free\",\"max_tokens\":32000,\"reasoning_effort\":\"high\",\"messages\":[{\"role\":\"user\",\"content\":\"hai opencode\"}],\"tools\":[{\"type\":\"function\",\"function\":{\"name\":\"read\"}}],\"tool_choice\":\"auto\",\"stream\":true,\"stream_options\":{\"include_usage\":true}}"
+}

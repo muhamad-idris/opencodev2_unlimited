@@ -1,0 +1,49 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "cache-control": "no-cache",
+    "cf-placement": "remote-IAD",
+    "cf-ray": "a572b0c2e8b1f924-SIN",
+    "connection": "keep-alive",
+    "content-type": "text/event-stream",
+    "date": "Sun, 08 Nov 2026 06:58:39 GMT",
+    "server": "cloudflare",
+    "server-timing": "gateway;dur=11, upstream;dur=240, total;dur=251",
+    "transfer-encoding": "chunked",
+    "x-opencode-log-id": "01a1b9f3-b650-7992-b536-7fe6a710b6fb",
+    "x-zen-model": "nemotron-3.5-super-vl-free"
+  },
+  "text": "Hai! How can I help you today?",
+  "reasoning": "The user said \"hai opencode\". This is a greeting. I should respond in a friendly, helpful manner. I don't need to use any tools for this - just respond directly.",
+  "finishReason": "stop",
+  "usage": {
+    "prompt_tokens": 330,
+    "completion_tokens": 49,
+    "total_tokens": 379,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 38,
+      "rejected_prediction_tokens": null
+    },
+    "cost": 0,
+    "opencode": {
+      "billing_source": "free",
+      "list_cost": 0,
+      "tokens": {
+        "input": 330,
+        "output": 49,
+        "reasoning": 38,
+        "cache_read": 0,
+        "cache_write_5m": 0,
+        "cache_write_1h": 0
+      }
+    }
+  },
+  "rawBytes": 4982
+}

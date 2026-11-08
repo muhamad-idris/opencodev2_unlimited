@@ -1,0 +1,51 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "cache-control": "no-cache",
+    "cf-placement": "remote-IAD",
+    "cf-ray": "a572a3522c285f39-SIN",
+    "connection": "keep-alive",
+    "content-type": "text/event-stream",
+    "date": "Sun, 08 Nov 2026 06:49:29 GMT",
+    "server": "cloudflare",
+    "server-timing": "gateway;dur=39, upstream;dur=929, total;dur=968",
+    "transfer-encoding": "chunked",
+    "x-opencode-log-id": "01a1b9eb-4fde-7ea9-a2a7-200b87f48739",
+    "x-zen-model": "big-pickle"
+  },
+  "text": "Halo! Ada yang bisa saya bantu?",
+  "reasoning": "The user just said \"halo\" (hello in Indonesian). I should reply briefly. Maybe in Indonesian since they greeted in Indonesian.",
+  "finishReason": "stop",
+  "usage": {
+    "prompt_tokens": 5538,
+    "completion_tokens": 38,
+    "total_tokens": 5576,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 5504,
+      "cache_creation_input_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 27,
+      "rejected_prediction_tokens": 0
+    },
+    "cost": 0,
+    "opencode": {
+      "billing_source": "free",
+      "list_cost": 0,
+      "tokens": {
+        "input": 34,
+        "output": 38,
+        "reasoning": 27,
+        "cache_read": 5504,
+        "cache_write_5m": 0,
+        "cache_write_1h": 0
+      }
+    }
+  },
+  "rawBytes": 4777
+}

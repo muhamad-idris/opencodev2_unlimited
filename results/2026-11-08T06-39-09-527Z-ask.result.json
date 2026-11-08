@@ -1,0 +1,51 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "cache-control": "no-cache",
+    "cf-placement": "remote-IAD",
+    "cf-ray": "a57294275f35f864-SIN",
+    "connection": "keep-alive",
+    "content-type": "text/event-stream",
+    "date": "Sun, 08 Nov 2026 06:39:09 GMT",
+    "server": "cloudflare",
+    "server-timing": "gateway;dur=29, upstream;dur=1302, total;dur=1331",
+    "transfer-encoding": "chunked",
+    "x-opencode-log-id": "01a1b9e1-d519-7bcd-989d-075c6d2bdbd7",
+    "x-zen-model": "big-pickle"
+  },
+  "text": "Halo. Saya Big Pickle, agen coding yang berjalan di OpenCode. Saya bisa membantu membaca/menulis kode, menjalankan perintah shell, dan menyelesaikan tugas pemrograman di direktori kerja `/home/tamsis/program/opencodev2`.\n\nAda yang ingin dikerjakan?",
+  "reasoning": "",
+  "finishReason": "stop",
+  "usage": {
+    "prompt_tokens": 5541,
+    "completion_tokens": 71,
+    "total_tokens": 5612,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 5504,
+      "cache_creation_input_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "cost": 0,
+    "opencode": {
+      "billing_source": "free",
+      "list_cost": 0,
+      "tokens": {
+        "input": 37,
+        "output": 71,
+        "reasoning": 0,
+        "cache_read": 5504,
+        "cache_write_5m": 0,
+        "cache_write_1h": 0
+      }
+    }
+  },
+  "rawBytes": 6635
+}

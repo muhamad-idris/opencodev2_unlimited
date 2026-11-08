@@ -1,0 +1,17 @@
+{
+  "url": "https://opencode.ai/inference/openai/v1/chat/completions",
+  "headers": {
+    "authorization": "Bearer public",
+    "content-type": "application/json",
+    "user-agent": "opencode/latest/2.2.5/cli",
+    "b3": "d5fc322157a69c20308b2942e5b4c051-02f0688eea114110-1-2c862896b8e9eacd",
+    "traceparent": "00-d5fc322157a69c20308b2942e5b4c051-02f0688eea114110-01",
+    "x-opencode-client": "cli",
+    "x-opencode-project": "aaef25d44d3915b62ff71761bacc20855efd1edf",
+    "x-opencode-session": "ses_e460a2868ffeuvXFETtGINrdTg",
+    "x-opencode-session-id": "ses_e460a2868ffeuvXFETtGINrdTg",
+    "x-session-affinity": "ses_e460a2868ffeuvXFETtGINrdTg",
+    "x-session-id": "ses_e460a2868ffeuvXFETtGINrdTg"
+  },
+  "body": "{\"model\":\"big-pickle\",\"max_tokens\":32000,\"reasoning_effort\":\"high\",\"messages\":[{\"role\":\"system\",\"content\":\"You are an AI agent running in OpenCode, a coding agent harness. Help the user accomplish their goals using the tools you have available.\\n\\nHere is some useful information about the environment you are running in:\\n<env>\\n  Working directory: /home/tamsis/program/opencodev2/bun-client\\n  Workspace root folder: /home/tamsis/program/opencodev2/bun-client\\n  Is directory a git repo: no\\n  Platform: linux\\n</env>\"},{\"role\":\"user\",\"content\":\"halo siapa kamu\"}],\"tools\":[{\"type\":\"function\",\"function\":{\"name\":\"read\"}}],\"tool_choice\":\"auto\",\"stream\":true,\"stream_options\":{\"include_usage\":true}}"
+}

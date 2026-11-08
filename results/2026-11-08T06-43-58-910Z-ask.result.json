@@ -1,0 +1,45 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "cache-control": "no-cache",
+    "cf-placement": "remote-IAD",
+    "cf-ray": "a5729b2bc9b89b2b-SIN",
+    "connection": "keep-alive",
+    "content-type": "text/event-stream",
+    "date": "Sun, 08 Nov 2026 06:43:57 GMT",
+    "server": "cloudflare",
+    "server-timing": "gateway;dur=32, upstream;dur=2745, total;dur=2777",
+    "transfer-encoding": "chunked",
+    "x-opencode-log-id": "01a1b9e6-37d4-7c83-a986-f2ba0081cf66",
+    "x-zen-model": "big-pickle"
+  },
+  "text": "Halo! Saya Big Pickle, agen AI yang berjalan di OpenCode.\n\nSaya bisa membantu Anda dengan pekerjaan coding di direktori kerja ini (`/home/tamsis/program/opencodev2`), misalnya membaca dan menelusuri kode, mengedit file, menjalankan perintah shell, mencari bug, atau menjelaskan cara kerja suatu bagian kode.\n\nAda yang ingin Anda kerjakan?",
+  "reasoning": "The user asks in Indonesian \"halo siapa kamu\" — hello, who are you. Simple answer. Instructions: plain markdown, no fabrication. I'm Big Pickle, running in OpenCode. Should respond in Indonesian briefly.",
+  "finishReason": "stop",
+  "usage": {
+    "prompt_tokens": 5543,
+    "completion_tokens": 141,
+    "total_tokens": 5684,
+    "prompt_tokens_details": {
+      "cached_tokens": 1750
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "cost": 0,
+    "opencode": {
+      "billing_source": "free",
+      "list_cost": 0,
+      "tokens": {
+        "input": 3793,
+        "output": 141,
+        "reasoning": 48,
+        "cache_read": 1750,
+        "cache_write_5m": 0,
+        "cache_write_1h": 0
+      }
+    }
+  },
+  "rawBytes": 31699
+}
