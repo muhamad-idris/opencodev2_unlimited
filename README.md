@@ -117,6 +117,27 @@ bun run ask.ts "hai opencode" nemotron-3.5-super-vl-free
 bun run replay.ts                          # replay the captured full body
 ```
 
+## Python port
+
+`lib.py`, `payload.py`, `ask.py`, `replay.py`, and `headers.py` mirror the
+TypeScript files. `tls.py` holds the fingerprint and drives `curl_cffi`
+(BoringSSL) with a custom JA3, the exact signature-algorithm order, and two
+extension switches, so the ClientHello matches Bun 1.4.4.
+
+```sh
+pip install -r requirements.txt   # curl_cffi==0.17.0
+
+python headers.py /path/to/project
+python ask.py "hai opencode"
+python ask.py "hai opencode" nemotron-3.5-super-vl-free
+python replay.py
+```
+
+Verified against `opencode.ai` with the same headers and payload: `200 OK`.
+`tls.py` targets the fresh-connection JA3 `1523504b38f0fae0d881d4b6554aac1b`;
+the capture's `ae5f2d...` additionally contains the `pre_shared_key` extension
+from a resumed session.
+
 ## Notes
 
 The free tier limit is shared across all free models, not per model. When it is
